@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Unit Converter Level 1</title>
+        <link href="style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+        <h1>Unit Converter V1</h1>
+
+        <input placeholder="Enter value" type="number" id="input">
+        <select id="fromUnit">
+            <option value="pounds">Pounds</option>
+            <option value="kilograms">Kilograms</option>
+        </select>
+        
+        <select id="toUnit">
+            <option value="pounds">To Pounds</option>
+            <option value="kilograms">To Kilograms</option>
+        </select>
+    
+        <button onclick="convert()">Convert</button>
+    
+        <div id="display">
+            <!-- Conversion result will be displayed here -->
+        </div>
+
+        <script src="app.js"></script>
+ 
+    </body>
+</html>
